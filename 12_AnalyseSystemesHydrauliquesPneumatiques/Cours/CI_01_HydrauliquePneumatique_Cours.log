@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  18 FEB 2014 18:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  18 FEB 2014 18:33
 entering extended mode
 **CI_01_HydrauliquePneumatique_Cours.tex
 
@@ -1082,7 +1082,7 @@ LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
 LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
 (Font)              scaled to size 16.24324pt on input line 49.
 )
-<images/ExoHand.png, id=75, 1315.91624pt x 532.99126pt>
+<images/ExoHand.png, id=71, 1315.91624pt x 532.99126pt>
 File: images/ExoHand.png Graphic file (type png)
 
 <use images/ExoHand.png>
@@ -1169,21 +1169,21 @@ LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
 (Font)              scaled to size 4.70001pt on input line 62.
 
-<images/caterpillar.png, id=78, 869.2475pt x 610.28pt>
+<images/caterpillar.png, id=74, 869.2475pt x 610.28pt>
 File: images/caterpillar.png Graphic file (type png)
 
 <use images/caterpillar.png>
 Package pdftex.def Info: images/caterpillar.png used on input line 65.
 (pdftex.def)             Requested size: 115.15053pt x 80.83842pt.
 
-<images/simulateur.png, id=80, 501.875pt x 334.24875pt>
+<images/simulateur.png, id=76, 501.875pt x 334.24875pt>
 File: images/simulateur.png Graphic file (type png)
 
 <use images/simulateur.png>
 Package pdftex.def Info: images/simulateur.png used on input line 72.
 (pdftex.def)             Requested size: 115.15053pt x 76.68687pt.
 
-<images/MoteurHydraulique.png, id=82, 1778.645pt x 1335.99126pt>
+<images/MoteurHydraulique.png, id=78, 1778.645pt x 1335.99126pt>
 File: images/MoteurHydraulique.png Graphic file (type png)
 
 <use images/MoteurHydraulique.png>
@@ -1207,14 +1207,14 @@ LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
 )
 \tf@toc=\write4
 
-<images/chainefonc.png, id=120, 2497.33pt x 896.34875pt>
+<images/chainefonc.png, id=114, 2497.33pt x 896.34875pt>
 File: images/chainefonc.png Graphic file (type png)
 
 <use images/chainefonc.png>
 Package pdftex.def Info: images/chainefonc.png used on input line 112.
 (pdftex.def)             Requested size: 500.66376pt x 179.69057pt.
 
-<png/logo_ptsi.png, id=121, 384.43625pt x 190.7125pt>
+<png/logo_ptsi.png, id=115, 384.43625pt x 190.7125pt>
 File: png/logo_ptsi.png Graphic file (type png)
  <use png/logo_ptsi.png>
 Package pdftex.def Info: png/logo_ptsi.png used on input line 113.
@@ -1331,21 +1331,21 @@ LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
 (Font)              scaled to size 4.70001pt on input line 199.
 
-<images/Symb_Moteur.png, id=155, 98.3675pt x 63.23625pt>
+<images/Symb_Moteur.png, id=149, 98.3675pt x 63.23625pt>
 File: images/Symb_Moteur.png Graphic file (type png)
 
 <use images/Symb_Moteur.png>
 Package pdftex.def Info: images/Symb_Moteur.png used on input line 213.
 (pdftex.def)             Requested size: 47.43242pt x 30.49199pt.
 
-<images/Symb_Pompe2.png, id=156, 101.37875pt x 108.405pt>
+<images/Symb_Pompe2.png, id=150, 101.37875pt x 108.405pt>
 File: images/Symb_Pompe2.png Graphic file (type png)
 
 <use images/Symb_Pompe2.png>
 Package pdftex.def Info: images/Symb_Pompe2.png used on input line 220.
 (pdftex.def)             Requested size: 47.43242pt x 50.72043pt.
 
-<images/Symb_MotoPompe.png, id=157, 157.58875pt x 109.40875pt>
+<images/Symb_MotoPompe.png, id=151, 157.58875pt x 109.40875pt>
 File: images/Symb_MotoPompe.png Graphic file (type png)
 
 <use images/Symb_MotoPompe.png>
@@ -1359,7 +1359,7 @@ Package pdftex.def Info: png/logo_ptsi.png used on input line 238.
 Pneumatiques/Cours/images/Symb_Moteur.png> <C:/Enseignements/GitHub/CI_01_Etude
 Systemes/12_AnalyseSystemesHydrauliquesPneumatiques/Cours/images/Symb_Pompe2.pn
 g> <C:/Enseignements/GitHub/CI_01_EtudeSystemes/12_AnalyseSystemesHydrauliquesP
-neumatiques/Cours/images/Symb_MotoPompe.png>] <images/Compresseur.png, id=165, 
+neumatiques/Cours/images/Symb_MotoPompe.png>] <images/Compresseur.png, id=159, 
 554.07pt x 485.815pt>
 File: images/Compresseur.png Graphic file (type png)
 
@@ -1367,21 +1367,21 @@ File: images/Compresseur.png Graphic file (type png)
 Package pdftex.def Info: images/Compresseur.png used on input line 240.
 (pdftex.def)             Requested size: 126.48564pt x 110.90485pt.
 
-<images/reservoir.png, id=167, 549.05125pt x 577.15625pt>
+<images/reservoir.png, id=161, 549.05125pt x 577.15625pt>
 File: images/reservoir.png Graphic file (type png)
 
 <use images/reservoir.png>
 Package pdftex.def Info: images/reservoir.png used on input line 247.
 (pdftex.def)             Requested size: 126.48564pt x 132.9545pt.
 
-<images/Symb_Reservoir.png, id=169, 122.4575pt x 27.10126pt>
+<images/Symb_Reservoir.png, id=163, 122.4575pt x 27.10126pt>
 File: images/Symb_Reservoir.png Graphic file (type png)
 
 <use images/Symb_Reservoir.png>
 Package pdftex.def Info: images/Symb_Reservoir.png used on input line 254.
 (pdftex.def)             Requested size: 47.43242pt x 10.49707pt.
 
-<images/Symb_Accumulateur.png, id=170, 122.4575pt x 297.11pt>
+<images/Symb_Accumulateur.png, id=164, 122.4575pt x 297.11pt>
 File: images/Symb_Accumulateur.png Graphic file (type png)
 
 <use images/Symb_Accumulateur.png>
@@ -1399,27 +1399,27 @@ Underfull \hbox (badness 1005) in paragraph at lines 265--266
 -tique, il
  []
 
-<images/fig8.png, id=171, 706.64pt x 444.66125pt>
+<images/fig8.png, id=165, 706.64pt x 444.66125pt>
 File: images/fig8.png Graphic file (type png)
  <use images/fig8.png>
 Package pdftex.def Info: images/fig8.png used on input line 271.
 (pdftex.def)             Requested size: 200.26244pt x 126.01735pt.
 
-<images/Symb_Filtre.png, id=172, 221.82875pt x 132.495pt>
+<images/Symb_Filtre.png, id=166, 221.82875pt x 132.495pt>
 File: images/Symb_Filtre.png Graphic file (type png)
 
 <use images/Symb_Filtre.png>
 Package pdftex.def Info: images/Symb_Filtre.png used on input line 279.
 (pdftex.def)             Requested size: 47.43242pt x 28.33018pt.
 
-<images/Symb_Deshydrateur.png, id=173, 221.82875pt x 131.49126pt>
+<images/Symb_Deshydrateur.png, id=167, 221.82875pt x 131.49126pt>
 File: images/Symb_Deshydrateur.png Graphic file (type png)
 
 <use images/Symb_Deshydrateur.png>
 Package pdftex.def Info: images/Symb_Deshydrateur.png used on input line 286.
 (pdftex.def)             Requested size: 47.43242pt x 28.11557pt.
 
-<images/Symb_Lubrificateur.png, id=174, 221.82875pt x 131.49126pt>
+<images/Symb_Lubrificateur.png, id=168, 221.82875pt x 131.49126pt>
 File: images/Symb_Lubrificateur.png Graphic file (type png)
 
 <use images/Symb_Lubrificateur.png>
@@ -1431,20 +1431,20 @@ Underfull \hbox (badness 2662) in paragraph at lines 307--308
  le sens de
  []
 
-<images/fig5.png, id=175, 597.23125pt x 358.33875pt>
+<images/fig5.png, id=169, 597.23125pt x 358.33875pt>
 File: images/fig5.png Graphic file (type png)
  <use images/fig5.png>
 Package pdftex.def Info: images/fig5.png used on input line 312.
 (pdftex.def)             Requested size: 175.23537pt x 105.14037pt.
 
-<images/Fig_01_Compresseur.png, id=176, 338.26375pt x 135.50626pt>
+<images/Fig_01_Compresseur.png, id=170, 338.26375pt x 135.50626pt>
 File: images/Fig_01_Compresseur.png Graphic file (type png)
 
 <use images/Fig_01_Compresseur.png>
 Package pdftex.def Info: images/Fig_01_Compresseur.png used on input line 323.
 (pdftex.def)             Requested size: 235.31256pt x 94.2665pt.
 
-<images/Fig_02_FRL.png, id=177, 1148.29pt x 472.76625pt>
+<images/Fig_02_FRL.png, id=171, 1148.29pt x 472.76625pt>
 File: images/Fig_02_FRL.png Graphic file (type png)
 
 <use images/Fig_02_FRL.png>
@@ -1472,13 +1472,13 @@ Underfull \hbox (badness 6859) in paragraph at lines 344--345
 []\T1/mdput/m/n/10 Un vé-rin est un ac-tion-neur uti-li-sant de l'éner-gie
  []
 
-<images/fig1.png, id=191, 447.6725pt x 78.2925pt>
+<images/fig1.png, id=185, 447.6725pt x 78.2925pt>
 File: images/fig1.png Graphic file (type png)
  <use images/fig1.png>
 Package pdftex.def Info: images/fig1.png used on input line 347.
 (pdftex.def)             Requested size: 170.71652pt x 29.85658pt.
 
-<images/Fig_03_Verin.png, id=192, 504.88625pt x 361.35pt>
+<images/Fig_03_Verin.png, id=186, 504.88625pt x 361.35pt>
 File: images/Fig_03_Verin.png Graphic file (type png)
 
 <use images/Fig_03_Verin.png>
@@ -1511,7 +1511,7 @@ Underfull \hbox (badness 7649) in paragraph at lines 364--365
 \T1/mdput/m/n/10 est brus-que-ment re-liée à la pres-sion d'uti-li-sa-tion et
  []
 
-<images/fig2.png, id=193, 1082.0425pt x 659.46375pt>
+<images/fig2.png, id=187, 1082.0425pt x 659.46375pt>
 File: images/fig2.png Graphic file (type png)
  <use images/fig2.png>
 Package pdftex.def Info: images/fig2.png used on input line 371.
@@ -1542,7 +1542,7 @@ Underfull \hbox (badness 1735) in paragraph at lines 395--396
 tant que le pis-ton est éloi-gné de la zone d'amor-tis-se-ment,
  []
 
-<images/fig3.png, id=203, 955.57pt x 281.05pt>
+<images/fig3.png, id=197, 955.57pt x 281.05pt>
 File: images/fig3.png Graphic file (type png)
  <use images/fig3.png>
 Package pdftex.def Info: images/fig3.png used on input line 399.
@@ -1555,21 +1555,21 @@ Package pdftex.def Info: png/logo_ptsi.png used on input line 407.
  [6 <C:/Enseignements/GitHub/CI_01_EtudeSystemes/12_AnalyseSystemesHydrauliques
 Pneumatiques/Cours/images/fig2.png> <C:/Enseignements/GitHub/CI_01_EtudeSysteme
 s/12_AnalyseSystemesHydrauliquesPneumatiques/Cours/images/fig3.png>] <images/Fi
-g_04_VerinSE.png, id=213, 1186.4325pt x 302.12875pt>
+g_04_VerinSE.png, id=207, 1186.4325pt x 302.12875pt>
 File: images/Fig_04_VerinSE.png Graphic file (type png)
 
 <use images/Fig_04_VerinSE.png>
 Package pdftex.def Info: images/Fig_04_VerinSE.png used on input line 424.
 (pdftex.def)             Requested size: 341.43306pt x 86.94662pt.
 
-<images/Fig_05_VerinDE.png, id=214, 1113.15875pt x 341.275pt>
+<images/Fig_05_VerinDE.png, id=208, 1113.15875pt x 341.275pt>
 File: images/Fig_05_VerinDE.png Graphic file (type png)
 
 <use images/Fig_05_VerinDE.png>
 Package pdftex.def Info: images/Fig_05_VerinDE.png used on input line 431.
 (pdftex.def)             Requested size: 341.43306pt x 104.67976pt.
 
-<images/Fig_06_VerinRot.png, id=215, 1259.70625pt x 448.67625pt>
+<images/Fig_06_VerinRot.png, id=209, 1259.70625pt x 448.67625pt>
 File: images/Fig_06_VerinRot.png Graphic file (type png)
 
 <use images/Fig_06_VerinRot.png>
@@ -1589,26 +1589,26 @@ LaTeX Font Info:    Font shape `T1/cmss/b/it' in size <14.4> not available
 LaTeX Font Info:    Font shape `T1/cmss/bx/it' will be
 (Font)              scaled to size 14.91832pt on input line 445.
 
-<images/distributeur_festo.png, id=228, 168.63pt x 126.4725pt>
+<images/distributeur_festo.png, id=222, 168.63pt x 126.4725pt>
 File: images/distributeur_festo.png Graphic file (type png)
 
 <use images/distributeur_festo.png>
 Package pdftex.def Info: images/distributeur_festo.png used on input line 458.
 (pdftex.def)             Requested size: 146.24506pt x 109.68666pt.
 
-<images/Fig_07.png, id=229, 479.7925pt x 286.06876pt>
+<images/Fig_07.png, id=223, 479.7925pt x 286.06876pt>
 File: images/Fig_07.png Graphic file (type png)
  <use images/Fig_07.png>
 Package pdftex.def Info: images/Fig_07.png used on input line 467.
 (pdftex.def)             Requested size: 222.9269pt x 132.91583pt.
 
-<images/Fig_08.png, id=230, 470.75874pt x 277.035pt>
+<images/Fig_08.png, id=224, 470.75874pt x 277.035pt>
 File: images/Fig_08.png Graphic file (type png)
  <use images/Fig_08.png>
 Package pdftex.def Info: images/Fig_08.png used on input line 474.
 (pdftex.def)             Requested size: 222.9269pt x 131.1914pt.
 
-<images/Fig_09.png, id=231, 993.7125pt x 658.46pt>
+<images/Fig_09.png, id=225, 993.7125pt x 658.46pt>
 File: images/Fig_09.png Graphic file (type png)
  <use images/Fig_09.png>
 Package pdftex.def Info: images/Fig_09.png used on input line 482.
@@ -1625,7 +1625,7 @@ ur_festo.png> <C:/Enseignements/GitHub/CI_01_EtudeSystemes/12_AnalyseSystemesHy
 drauliquesPneumatiques/Cours/images/Fig_07.png> <C:/Enseignements/GitHub/CI_01_
 EtudeSystemes/12_AnalyseSystemesHydrauliquesPneumatiques/Cours/images/Fig_08.pn
 g>]
-<images/Fig_10_distri.png, id=240, 945.5325pt x 574.145pt>
+<images/Fig_10_distri.png, id=234, 945.5325pt x 574.145pt>
 File: images/Fig_10_distri.png Graphic file (type png)
 
 <use images/Fig_10_distri.png>
@@ -1636,7 +1636,7 @@ File: png/logo_ptsi.png Graphic file (type png)
 Package pdftex.def Info: png/logo_ptsi.png used on input line 493.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
  [9 <C:/Enseignements/GitHub/CI_01_EtudeSystemes/12_AnalyseSystemesHydrauliques
-Pneumatiques/Cours/images/Fig_09.png>] <images/fig4.png, id=246, 1332.98pt x 14
+Pneumatiques/Cours/images/Fig_09.png>] <images/fig4.png, id=240, 1332.98pt x 14
 35.3625pt>
 File: images/fig4.png Graphic file (type png)
 
@@ -1648,50 +1648,108 @@ File: png/logo_ptsi.png Graphic file (type png)
 Package pdftex.def Info: png/logo_ptsi.png used on input line 497.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
  [10 <C:/Enseignements/GitHub/CI_01_EtudeSystemes/12_AnalyseSystemesHydraulique
-sPneumatiques/Cours/images/Fig_10_distri.png>]
+sPneumatiques/Cours/images/Fig_10_distri.png>] <images/ventouse_festo.png, id=2
+46, 78.2925pt x 168.63pt>
+File: images/ventouse_festo.png Graphic file (type png)
+
+<use images/ventouse_festo.png>
+Package pdftex.def Info: images/ventouse_festo.png used on input line 505.
+(pdftex.def)             Requested size: 79.05322pt x 170.27377pt.
+
+<images/generateur_vide.png, id=247, 577.15625pt x 241.90375pt>
+File: images/generateur_vide.png Graphic file (type png)
+
+<use images/generateur_vide.png>
+Package pdftex.def Info: images/generateur_vide.png used on input line 512.
+(pdftex.def)             Requested size: 237.15968pt x 99.40263pt.
+
+Overfull \hbox (79.05322pt too wide) in paragraph at lines 512--513
+ [] 
+ []
+
+<images/pince_festo.png, id=248, 107.40125pt x 168.63pt>
+File: images/pince_festo.png Graphic file (type png)
+
+<use images/pince_festo.png>
+Package pdftex.def Info: images/pince_festo.png used on input line 519.
+(pdftex.def)             Requested size: 79.05322pt x 124.12296pt.
 File: png/logo_ptsi.png Graphic file (type png)
  <use png/logo_ptsi.png>
-Package pdftex.def Info: png/logo_ptsi.png used on input line 504.
+Package pdftex.def Info: png/logo_ptsi.png used on input line 524.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
  [11 <C:/Enseignements/GitHub/CI_01_EtudeSystemes/12_AnalyseSystemesHydraulique
-sPneumatiques/Cours/images/fig4.png>]
+sPneumatiques/Cours/images/fig4.png>] <images/Manometre.png, id=253, 322.20375p
+t x 269.005pt>
+File: images/Manometre.png Graphic file (type png)
+
+<use images/Manometre.png>
+Package pdftex.def Info: images/Manometre.png used on input line 528.
+(pdftex.def)             Requested size: 126.48564pt x 105.6011pt.
+
+<images/Pressostat.png, id=254, 287.0725pt x 280.04625pt>
+File: images/Pressostat.png Graphic file (type png)
+
+<use images/Pressostat.png>
+Package pdftex.def Info: images/Pressostat.png used on input line 535.
+(pdftex.def)             Requested size: 126.48564pt x 123.38737pt.
+
+<images/CapteurChute.png, id=255, 639.38875pt x 300.12125pt>
+File: images/CapteurChute.png Graphic file (type png)
+
+<use images/CapteurChute.png>
+Package pdftex.def Info: images/CapteurChute.png used on input line 542.
+(pdftex.def)             Requested size: 184.45888pt x 86.58414pt.
+
 <images/recap.png, id=256, 952.55875pt x 1418.29875pt>
 File: images/recap.png Graphic file (type png)
  <use images/recap.png>
-Package pdftex.def Info: images/recap.png used on input line 507.
+Package pdftex.def Info: images/recap.png used on input line 550.
 (pdftex.def)             Requested size: 395.26213pt x 588.5181pt.
-LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 10.70007pt on input line 511.
 File: png/logo_ptsi.png Graphic file (type png)
 
 <use png/logo_ptsi.png>
-Package pdftex.def Info: png/logo_ptsi.png used on input line 513.
+Package pdftex.def Info: png/logo_ptsi.png used on input line 551.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
  [12 <C:/Enseignements/GitHub/CI_01_EtudeSystemes/12_AnalyseSystemesHydraulique
-sPneumatiques/Cours/images/recap.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 520.
+sPneumatiques/Cours/images/ventouse_festo.png> <C:/Enseignements/GitHub/CI_01_E
+tudeSystemes/12_AnalyseSystemesHydrauliquesPneumatiques/Cours/images/generateur
+_vide.png> <C:/Enseignements/GitHub/CI_01_EtudeSystemes/12_AnalyseSystemesHydra
+uliquesPneumatiques/Cours/images/pince_festo.png> <C:/Enseignements/GitHub/CI_0
+1_EtudeSystemes/12_AnalyseSystemesHydrauliquesPneumatiques/Cours/images/Manomet
+re.png> <C:/Enseignements/GitHub/CI_01_EtudeSystemes/12_AnalyseSystemesHydrauli
+quesPneumatiques/Cours/images/Pressostat.png> <C:/Enseignements/GitHub/CI_01_Et
+udeSystemes/12_AnalyseSystemesHydrauliquesPneumatiques/Cours/images/CapteurChut
+e.png>]
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 10.70007pt on input line 554.
 File: png/logo_ptsi.png Graphic file (type png)
-
-<use png/logo_ptsi.png>
-Package pdftex.def Info: png/logo_ptsi.png used on input line 520.
+ <use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 556.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 520.
+ [13 <C:/Enseignements/GitHub/CI_01_EtudeSystemes/12_AnalyseSystemesHydraulique
+sPneumatiques/Cours/images/recap.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 564.
+File: png/logo_ptsi.png Graphic file (type png)
+ <use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 564.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 564.
 
 (C:\Enseignements\GitHub\CI_01_EtudeSystemes\12_AnalyseSystemesHydrauliquesPneu
 matiques\Cours\CI_01_HydrauliquePneumatique_Cours.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 520.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 520.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 564.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 564.
 Package rerunfilecheck Info: File `CI_01_HydrauliquePneumatique_Cours.out' has 
 not changed.
-(rerunfilecheck)             Checksum: 7B566C89A44A763639F2BBC69926CA84;1267.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 520.
+(rerunfilecheck)             Checksum: BA28F900D84471068CBC546BFE6B13EF;1196.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 564.
  ) 
 Here is how much of TeX's memory you used:
- 12628 strings out of 493921
- 181617 string characters out of 3147279
- 302555 words of memory out of 3000000
- 15564 multiletter control sequences out of 15000+200000
+ 12659 strings out of 493921
+ 182364 string characters out of 3147279
+ 302580 words of memory out of 3000000
+ 15588 multiletter control sequences out of 15000+200000
  149051 words of font info for 93 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,18n,72p,607b,552s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1713,10 +1771,10 @@ s/type1/mathdesign/mdput/md-utri7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /mathdesign/mdput/md-utri8t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/
 utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on CI_01_HydrauliquePneumatique_Cours.pdf (13 pages, 9974235 byt
-es).
+Output written on CI_01_HydrauliquePneumatique_Cours.pdf (14 pages, 10233437 by
+tes).
 PDF statistics:
- 581 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 315 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 587 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 337 words of extra memory for PDF output out of 10000 (max. 10000000)
 
