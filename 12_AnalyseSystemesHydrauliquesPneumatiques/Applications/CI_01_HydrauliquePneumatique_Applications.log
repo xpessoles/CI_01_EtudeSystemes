@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  18 FEB 2014 19:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  19 FEB 2014 00:07
 entering extended mode
 **CI_01_HydrauliquePneumatique_Applications.tex
 
 (C:\Enseignements\GitHub\CI_01_EtudeSystemes\12_AnalyseSystemesHydrauliquesPneu
-matiques\TD\CI_01_HydrauliquePneumatique_Applications.tex
+matiques\Applications\CI_01_HydrauliquePneumatique_Applications.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -33,7 +33,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 (C:\Enseignements\GitHub\CI_01_EtudeSystemes\12_AnalyseSystemesHydrauliquesPneu
-matiques\TD\style/coursHeadings.tex
+matiques\Applications\style/coursHeadings.tex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -606,7 +606,7 @@ Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen140
 ))
 (C:\Enseignements\GitHub\CI_01_EtudeSystemes\12_AnalyseSystemesHydrauliquesPneu
-matiques\TD\style/programHeadings.tex
+matiques\Applications\style/programHeadings.tex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
 \c@AlgoLine=\count114
@@ -850,9 +850,9 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 Package: setspace 2011/12/19 v6.7a set line spacing
 ))
 (C:\Enseignements\GitHub\CI_01_EtudeSystemes\12_AnalyseSystemesHydrauliquesPneu
-matiques\TD\style/macros_SII.tex)
+matiques\Applications\style/macros_SII.tex)
 (C:\Enseignements\GitHub\CI_01_EtudeSystemes\12_AnalyseSystemesHydrauliquesPneu
-matiques\TD\style/macros_Titres.tex
+matiques\Applications\style/macros_Titres.tex
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
 (Font)              scaled to size 70.47974pt on input line 43.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <40> not available
@@ -864,7 +864,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 \oldparindent=\dimen151
 )
 (C:\Enseignements\GitHub\CI_01_EtudeSystemes\12_AnalyseSystemesHydrauliquesPneu
-matiques\TD\style/macros_Frames.tex
+matiques\Applications\style/macros_Frames.tex
 Package color Info: Redefining color gris25 on input line 3.
 Package color Info: Redefining color bleu on input line 4.
 Package color Info: Redefining color bleuf on input line 5.
@@ -995,44 +995,46 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip78
 )
-No file CI_01_HydrauliquePneumatique_Applications.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 52.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 52.
+(C:\Enseignements\GitHub\CI_01_EtudeSystemes\12_AnalyseSystemesHydrauliquesPneu
+matiques\Applications\CI_01_HydrauliquePneumatique_Applications.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 49.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 49.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdacmr.fd"
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 52.
-LaTeX Font Info:    Try loading font information for MDB+cmr on input line 52.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 49.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 49.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdbcmr.fd"
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Info: Redefining \degres on input line 52.
-LaTeX Info: Redefining \dots on input line 52.
-LaTeX Info: Redefining \up on input line 52.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Info: Redefining \degres on input line 49.
+LaTeX Info: Redefining \dots on input line 49.
+LaTeX Info: Redefining \up on input line 49.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1050,7 +1052,7 @@ LaTeX Info: Redefining \up on input line 52.
 )
 \c@lstlisting=\count142
 \AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring ON on input line 52.
+Package hyperref Info: Link coloring ON on input line 49.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1059,13 +1061,18 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count143
 )
-LaTeX Info: Redefining \ref on input line 52.
-LaTeX Info: Redefining \pageref on input line 52.
-LaTeX Info: Redefining \nameref on input line 52.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
+
+(C:\Enseignements\GitHub\CI_01_EtudeSystemes\12_AnalyseSystemesHydrauliquesPneu
+matiques\Applications\CI_01_HydrauliquePneumatique_Applications.out)
+(C:\Enseignements\GitHub\CI_01_EtudeSystemes\12_AnalyseSystemesHydrauliquesPneu
+matiques\Applications\CI_01_HydrauliquePneumatique_Applications.out)
 \@outlinefile=\write3
 
 (C:\Enseignements\GitHub\CI_01_EtudeSystemes\12_AnalyseSystemesHydrauliquesPneu
-matiques\TD\style/enteteXP.tex
+matiques\Applications\style/enteteXP.tex
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
 (Font)              scaled to size 19.49565pt on input line 45.
 LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
@@ -1075,140 +1082,161 @@ LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
 LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
 (Font)              scaled to size 16.24324pt on input line 49.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
+LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
+(Font)              scaled to size 9.40002pt on input line 54.
+LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
+(Font)              scaled to size 13.53603pt on input line 54.
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 11.28003pt on input line 58.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 12.43195pt on input line 58.
+LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <12> not available
+(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
+(Font)              scaled to size 12.43195pt on input line 58.
 
-<png/logo_ptsi.png, id=3, 384.43625pt x 190.7125pt>
+<images/GroupeHydraulique.png, id=3, 432.61626pt x 684.5575pt>
+File: images/GroupeHydraulique.png Graphic file (type png)
+
+<use images/GroupeHydraulique.png>
+Package pdftex.def Info: images/GroupeHydraulique.png used on input line 61.
+(pdftex.def)             Requested size: 210.80325pt x 333.56636pt.
+File: images/GroupeHydraulique.png Graphic file (type png)
+ <use images/GroupeHydraulique.png>
+Package pdftex.def Info: images/GroupeHydraulique.png used on input line 63.
+(pdftex.def)             Requested size: 210.80325pt x 333.56636pt.
+LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
+(Font)              scaled to size 9.40002pt on input line 66.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+
+<png/logo_ptsi.png, id=5, 384.43625pt x 190.7125pt>
 File: png/logo_ptsi.png Graphic file (type png)
  <use png/logo_ptsi.png>
-Package pdftex.def Info: png/logo_ptsi.png used on input line 56.
+Package pdftex.def Info: png/logo_ptsi.png used on input line 81.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
-LaTeX Font Info:    Try loading font information for OT1+mdput on input line 56
+LaTeX Font Info:    Try loading font information for OT1+mdput on input line 81
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\ot1mdput.fd"
 File: ot1mdput.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdput.
 )
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 56.
+(Font)              scaled to size 9.40002pt on input line 81.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 56.
+(Font)              scaled to size 6.58002pt on input line 81.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 56.
-LaTeX Font Info:    Try loading font information for OML+mdput on input line 56
+(Font)              scaled to size 4.70001pt on input line 81.
+LaTeX Font Info:    Try loading font information for OML+mdput on input line 81
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\omlmdput.fd"
 File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
 )
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 9.40002pt on input line 56.
+(Font)              scaled to size 9.40002pt on input line 81.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 6.58002pt on input line 56.
+(Font)              scaled to size 6.58002pt on input line 81.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 4.70001pt on input line 56.
-LaTeX Font Info:    Try loading font information for OMS+mdput on input line 56
+(Font)              scaled to size 4.70001pt on input line 81.
+LaTeX Font Info:    Try loading font information for OMS+mdput on input line 81
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\omsmdput.fd"
 File: omsmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdput.
 )
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 56.
+(Font)              scaled to size 9.40002pt on input line 81.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 56.
+(Font)              scaled to size 6.58002pt on input line 81.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 56.
-LaTeX Font Info:    Try loading font information for OMX+mdput on input line 56
+(Font)              scaled to size 4.70001pt on input line 81.
+LaTeX Font Info:    Try loading font information for OMX+mdput on input line 81
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\omxmdput.fd"
 File: omxmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdput.
 )
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 56.
+(Font)              scaled to size 9.40002pt on input line 81.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 56.
+(Font)              scaled to size 6.58002pt on input line 81.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 56.
+(Font)              scaled to size 4.70001pt on input line 81.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 56.
+(Font)              scaled to size 9.40002pt on input line 81.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 56.
+(Font)              scaled to size 6.58002pt on input line 81.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 56.
-LaTeX Font Info:    Try loading font information for MDA+mdput on input line 56
+(Font)              scaled to size 4.70001pt on input line 81.
+LaTeX Font Info:    Try loading font information for MDA+mdput on input line 81
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\mdamdput.fd"
 File: mdamdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdput.
 )
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 56.
+(Font)              scaled to size 9.40002pt on input line 81.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 56.
+(Font)              scaled to size 6.58002pt on input line 81.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 56.
-LaTeX Font Info:    Try loading font information for MDB+mdput on input line 56
+(Font)              scaled to size 4.70001pt on input line 81.
+LaTeX Font Info:    Try loading font information for MDB+mdput on input line 81
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\mdbmdput.fd"
 File: mdbmdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdput.
 )
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 56.
+(Font)              scaled to size 9.40002pt on input line 81.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 56.
+(Font)              scaled to size 6.58002pt on input line 81.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 56.
+(Font)              scaled to size 4.70001pt on input line 81.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 56.
+(Font)              scaled to size 7.52002pt on input line 81.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 7.52002pt on input line 56.
+(Font)              scaled to size 7.52002pt on input line 81.
 LaTeX Font Info:    Font shape `T1/cmss/m/it' will be
-(Font)              scaled to size 8.28796pt on input line 56.
+(Font)              scaled to size 8.28796pt on input line 81.
 LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
-(Font)              scaled to size 7.52002pt on input line 56.
+(Font)              scaled to size 7.52002pt on input line 81.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 7.52002pt on input line 56.
+(Font)              scaled to size 7.52002pt on input line 81.
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
  <C:/Enseignements/GitHub/CI_01_EtudeSystemes/12_AnalyseSystemesHydrauliquesPne
-umatiques/TD/png/logo_ptsi.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
+umatiques/Applications/png/logo_ptsi.png> <C:/Enseignements/GitHub/CI_01_EtudeS
+ystemes/12_AnalyseSystemesHydrauliquesPneumatiques/Applications/images/GroupeHy
+draulique.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
 
 (C:\Enseignements\GitHub\CI_01_EtudeSystemes\12_AnalyseSystemesHydrauliquesPneu
-matiques\TD\CI_01_HydrauliquePneumatique_Applications.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
-
-
-Package rerunfilecheck Warning: File `CI_01_HydrauliquePneumatique_Applications
-.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CI_01_HydrauliquePneumatique_Applic
-ations.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
+matiques\Applications\CI_01_HydrauliquePneumatique_Applications.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
+Package rerunfilecheck Info: File `CI_01_HydrauliquePneumatique_Applications.ou
+t' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 12332 strings out of 493921
- 175197 string characters out of 3147279
- 293219 words of memory out of 3000000
- 15382 multiletter control sequences out of 15000+200000
- 92224 words of font info for 64 fonts, out of 3000000 for 9000
+ 12367 strings out of 493921
+ 176703 string characters out of 3147279
+ 295340 words of memory out of 3000000
+ 15397 multiletter control sequences out of 15000+200000
+ 125840 words of font info for 76 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  38i,17n,72p,331b,442s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/texnansi.enc} <C:\Users
-\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\ecsi0800.pk
-><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb>
-Output written on CI_01_HydrauliquePneumatique_Applications.pdf (1 page, 74805 
-bytes).
+\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\ecsx1200.pk
+> <C:\Users\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\
+ecsi0800.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on CI_01_HydrauliquePneumatique_Applications.pdf (1 page, 126282
+ bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 74 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

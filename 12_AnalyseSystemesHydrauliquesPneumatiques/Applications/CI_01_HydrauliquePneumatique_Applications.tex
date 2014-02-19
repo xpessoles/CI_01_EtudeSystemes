@@ -30,7 +30,8 @@ Chapitre 12 -- Analyse des systèmes hydrauliques et pneumatiques}{
 Partie  -- }}
 
 \def\xxauteur{\ifthenelse{\boolean{xp}}{
-Xavier \textsc{Pessoles}}{}}
+Xavier \textsc{Pessoles}\\
+2013 -- 2014}{}}
 
 \def\xxpied{\ifthenelse{\boolean{xp}}{
 CI 1 : Analyse des systèmes pluritechniques et multiphysiques\\
@@ -42,10 +43,6 @@ Ch. 12 : Systèmes hydrauliques et pneumatiques -- Cours}{
 Xavier \textsc{Pessoles}}{
 Informatique - Cours}}
 
-
-
-
-
 %---------------------------------------------------------------------------
 
 
@@ -53,6 +50,34 @@ Informatique - Cours}}
 
 \ifthenelse{\boolean{xp}}{\input{style/enteteXP}}{\input{style/enteteDI}}
 
+\begin{center}
+\textit{\Large{Exercice d'application}}
+\end{center}
+
+
+\subsection*{Schéma hydraulique du pilote automatique de voilier}
+\vspace{.5cm}
+\begin{center}
+\includegraphics[width=.4\textwidth]{images/GroupeHydraulique}
+\hfill
+\includegraphics[width=.4\textwidth]{images/GroupeHydraulique}
+\end{center}
+
+\subparagraph{}
+\textit{Donner la désignation de chacun des composants hydrauliques.}
+
+\subparagraph{}
+\textit{Analyser ce schéma dans les cas d’utilisation  suivants :
+\begin{itemize}
+\item le vérin sort à droite;
+\item le vérin sort à gauche;
+\item l’effort sur le vérin devient trop important;
+\item le vérin est immobile mais doit rester en place sous les efforts;
+\item le vérin doit se déplacer librement car le safran est sous commande manuelle (le volant du bateau).
+\end{itemize}}
+
+\subparagraph{}
+\textit{Proposer un schéma cinématique de la pompe (on précise qu'il s'agit d'une pompe à pistions radiaux).}
 \end{document}
 
 
