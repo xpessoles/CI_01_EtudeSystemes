@@ -1,0 +1,167 @@
+\documentclass[10pt]{article}
+\input{style/coursHeadings}
+\input{style/programHeadings}
+\input{style/macros_SII}
+\input{style/macros_Titres}
+\input{style/macros_Frames}
+
+%Si le boolen xp est vrai : compilation pour xabi
+%Sinon compilation Damien
+\newboolean{xp}
+\setboolean{xp}{true}
+
+\newboolean{prof}
+\setboolean{prof}{true}
+
+\usepackage[%
+    pdftitle={CI 01 : Introction à l'IS - Ch 6 : Diagramme de Séquence},
+    pdfauthor={Xavier Pessoles},
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=magenta]{hyperref}
+
+
+\def\discipline{Sciences Industrielles de l'Ingénieur}
+\def\xxtitre{\ifthenelse{\boolean{xp}}{
+CI 1 : Analyse des systèmes pluritechniques et multiphysiques -- Initiation à l'Ingénierie Système}{}}
+
+\def\xxsoustitre{\ifthenelse{\boolean{xp}}{
+Chapitre 6 -- Diagramme de Séquence}{
+Partie  -- }}
+
+\def\xxauteur{\ifthenelse{\boolean{xp}}{
+Xavier \textsc{Pessoles}}{}}
+
+\def\xxpied{\ifthenelse{\boolean{xp}}{
+CI 1 : Introduction à l'IS\\
+Ch. 6 : Diagramme de Séquence -- Cours}{
+\xxtitre}}
+
+\def\xxcathegorie{\ifthenelse{\boolean{xp}}{
+2013 -- 2014 \\
+Xavier \textsc{Pessoles}}{}}
+
+
+
+
+
+%---------------------------------------------------------------------------
+
+
+\begin{document}
+
+\ifthenelse{\boolean{xp}}{\input{style/enteteXP}}{\input{style/enteteDI}}
+
+
+
+
+
+\begin{center}
+\includegraphics[width=.95\textwidth]{images/seq} 
+\end{center}
+
+\vspace{.2cm}
+
+%
+%\begin{prob}
+%\textsc{Problématique :}
+%\begin{itemize}
+%\item 
+%\end{itemize}
+%\end{prob}
+
+\begin{savoir}
+\textsc{Savoirs :}
+\begin{itemize}
+\item A-C2.3 : Diagramme de séquence de SysML.
+\item A-C2-S2 : Identifier les interactions entre les acteurs et le système étudié. 
+\end{itemize}
+\end{savoir}
+
+\setlength{\parskip}{0ex plus 0.2ex minus 0ex}
+ \renewcommand{\contentsname}{}
+ \renewcommand{\baselinestretch}{1}
+
+\tableofcontents
+
+ \renewcommand{\baselinestretch}{1.2}
+\setlength{\parskip}{2ex plus 0.5ex minus 0.2ex}
+
+% \vspace{1cm}
+\textit{Ce document est en évolution permanente. Merci de signaler toutes
+erreurs ou coquilles.}
+
+\section{Présentation}
+\begin{defi}
+\textbf{Diagramme de séquence -- \textit{Sequence Diagram} -- \textit{sd} }
+
+Un diagramme de séquence doit être associé à chacun des cas d'utilisation d'un système. Il présente de façon séquentielle les interactions entre le système (ou sous système) et les différents acteurs. 
+\end{defi}
+
+\begin{rem}
+Le diagramme de séquence traduit de manière \textbf{descriptive} des interactions. Il ne présume en aucun cas des choix technologiques utilisés. 
+\end{rem}
+
+\begin{defi}
+\begin{minipage}[c]{.8\linewidth}
+\textbf{Ligne(s) de vie}
+
+Une ligne de vie est associée à chaque entité participant à la séquence. Elle est représentée graphiquement par une ligne verticale en pointillés. 
+\end{minipage} \hfill
+\begin{minipage}[c]{.15 \linewidth}
+\begin{center}
+\includegraphics[width=.95\textwidth]{images/LigneVie}
+\end{center}
+\end{minipage}
+\end{defi}
+
+\begin{defi}
+\textbf{Messages}
+
+Un message est un élément de communication entre deux lignes de vie ou au sein d'une même ligne de vie. Les messages sont unidirectionnels et provoquent, chez le récepteur, l'apparition d'un événement. 
+\begin{minipage}[c]{.65\linewidth} 
+\begin{itemize}
+\item \textbf{Message synchrone} : il est envoyé lorsque l'émetteur attend une réponse du récepteur. Il est représenté par une flèche pleine.
+\item \textbf{Message de retour} : c'est le message du récepteur suite à un message synchrone. Il est représenté par une flèche en pointillés.
+\item \textbf{Message asynchrone} : ce type de message n'attend pas de réponse du récepteur. Il est représenté par une flèche évidée.
+\item \textbf{Message réflexif} : représentatif d'un comportement interne à une ligne de vie, il va de l'émetteur vers lui même. La flèche est pleine.
+\end{itemize}
+\end{minipage} \hfill
+\begin{minipage}[c]{.3\linewidth} 
+\begin{center}
+\includegraphics[width=.95\textwidth]{images/Messages}
+\end{center}
+\end{minipage}
+\end{defi}
+
+\begin{rem}
+La bande verticale située sous une ligne de vie est appelée \textbf{bande d'activation}.
+\end{rem}
+\section{Les fragments combinés}.
+
+\begin{defi}
+Parmi les fragments combinés on compte les suivants :
+\begin{itemize}
+\item \textbf{par} : plusieurs scénarios se déroulent en parallèle;
+\item \textbf{loop} : le scénario est à répéter en boucle tant qu'une condition est vraie;
+\item \textbf{opt} : un scénario optionnel est possible selon une condition;
+\item \textbf{alt} : plusieurs scénarios différents sont envisageables selon des conditions;
+\item \textbf{ref} : un scénario est référencé. Il est décrit séparément dans un autre diagramme de séquence. 
+\end{itemize}
+\end{defi}
+
+\begin{center}
+\includegraphics[width=.95\textwidth]{images/sequence}
+\end{center}
+
+\begin{center}
+\includegraphics[width=.8\textwidth]{images/Portail}
+
+\textit{Diagramme de séquence -- Ouverture du portail FAAC \cite{1}}
+\end{center}
+
+\begin{thebibliography}{2}
+\bibitem{1}{Patrick Beynet et Al. , \textit{Sciences Industrielles de l'Ingénieur, PCSI -- MPSI}, Éditions Ellipses.}
+\bibitem{2}{Pascal Roques, \textit{SysML par l'exemple}, Éditions Eyrolles.}
+\end{thebibliography}
+\end{document}
