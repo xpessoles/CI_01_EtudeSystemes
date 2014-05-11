@@ -1,0 +1,294 @@
+\documentclass[10pt]{article}
+\input{style/coursHeadings}
+\input{style/programHeadings}
+\input{style/macros_SII}
+\input{style/macros_Titres}
+\input{style/macros_Frames}
+
+%Si le boolen xp est vrai : compilation pour xabi
+%Sinon compilation Damien
+\newboolean{xp}
+\setboolean{xp}{true}
+
+\newboolean{prof}
+\setboolean{prof}{true}
+
+\usepackage[%
+    pdftitle={CI 01 : Introction à l'IS - Ch 7 : Diagramme d'états},
+    pdfauthor={Xavier Pessoles},
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=magenta]{hyperref}
+
+
+\def\discipline{Sciences Industrielles de l'Ingénieur}
+\def\xxtitre{\ifthenelse{\boolean{xp}}{
+CI 1 : Analyse des systèmes pluritechniques et multiphysiques -- Initiation à l'Ingénierie Système}{}}
+
+\def\xxsoustitre{\ifthenelse{\boolean{xp}}{
+Chapitre 7 -- Diagramme d'états}{
+Partie  -- }}
+
+\def\xxauteur{\ifthenelse{\boolean{xp}}{
+Xavier \textsc{Pessoles}}{}}
+
+\def\xxpied{\ifthenelse{\boolean{xp}}{
+CI 1 : Introduction à l'IS\\
+Ch. 7 : Diagramme d'états -- Cours}{
+\xxtitre}}
+
+\def\xxcathegorie{\ifthenelse{\boolean{xp}}{
+2013 -- 2014 \\
+Xavier \textsc{Pessoles}}{}}
+
+
+
+
+
+%---------------------------------------------------------------------------
+
+
+\begin{document}
+
+\ifthenelse{\boolean{xp}}{\input{style/enteteXP}}{\input{style/enteteDI}}
+
+
+
+
+
+\begin{center}
+\includegraphics[width=.95\textwidth]{images/stm} 
+\end{center}
+
+\vspace{.2cm}
+
+%
+%\begin{prob}
+%\textsc{Problématique :}
+%\begin{itemize}
+%\item 
+%\end{itemize}
+%\end{prob}
+
+\begin{savoir}
+\textsc{Savoirs :}
+\begin{itemize}
+\item A -- C4.2 : Comportement du système : machine d’état, transition, états, actions, activité, évènement, conditions, état initial, état final.
+\end{itemize}
+\end{savoir}
+
+\setlength{\parskip}{0ex plus 0.2ex minus 0ex}
+ \renewcommand{\contentsname}{}
+ \renewcommand{\baselinestretch}{1}
+
+\tableofcontents
+
+ \renewcommand{\baselinestretch}{1.2}
+\setlength{\parskip}{2ex plus 0.5ex minus 0.2ex}
+
+% \vspace{1cm}
+\textit{Ce document est en évolution permanente. Merci de signaler toutes
+erreurs ou coquilles.}
+
+\section{Présentation}
+\begin{rem}
+Le diagramme d'états (\textit{state machine diagram -- stm}) inclus dans SysML est issus du concept de la machine à états finis (ou automate fini) (\textit{Finite State Machine -- FSM}). 
+
+Un automate est constitué d'une succession d'états et de transition. Le nombre d'états est fini. 
+\end{rem}
+
+
+
+\begin{defi}
+\begin{minipage}[c]{.55\linewidth}
+\textbf{État}
+
+Un état représente une situation durant la vie d'un bloc pendant laquelle :
+\begin{itemize}
+\item il satisfait une certaine condition;
+\item il exécute une certaine \textbf{activité};
+\item il attend un certain événement. 
+\end{itemize}
+
+Un bloc passe par une succession d'état durant son existence. Un état a une durée finie, variable selon la vue du bloc, en particulier en fonction des événements qui lui arrivent. 
+
+
+\end{minipage} \hfill
+\begin{minipage}[c]{.4\linewidth}
+\begin{center}
+\includegraphics[width=.95\textwidth]{images/etat}
+\end{center}
+\end{minipage}
+\end{defi}
+
+
+
+
+
+\begin{defi}
+\begin{minipage}[c]{.55\linewidth}
+\textbf{Transition}
+
+Une transition est un lien entre deux états. On peut y associer un \textbf{événement} (déclencheur), un élément déclencheur appelé \textbf{condition de garde} et un \textbf{effet}. 
+
+Une transition est franchie lorsque l'événement a été réalisé et que la condition de garde est vraie. 
+L'effet est produit au passage de la transition. L'état amont est désactivé. Si une activité est en cours (do/...),elle est désactivée. 
+
+
+
+Une transition réflexive entraîne une sortie puis une nouvelle entrée dans l'état. 
+\end{minipage} \hfill
+\begin{minipage}[c]{.4 \linewidth}
+\begin{center}
+\includegraphics[width=.95\textwidth]{images/Transition}
+\end{center}
+\end{minipage}
+\end{defi}
+
+
+
+\begin{defi}
+\begin{minipage}[c]{.55\linewidth}
+\textbf{Événement}
+
+Il existe quatre types d’évènement associé à une transition :
+\begin{itemize}
+\item le message (\textit{signal event}) : un message asynchrone est arrivé;
+\item l'événement temporel (\textit{time event}) : un intervalle de temps s’est écoulé depuis l’entrée dans un état (mot clé « \textit{after} ») ou un temps absolu a été atteint (mot clé « \textit{at} »);
+\item l'événement de changement (\textit{change event}) : une valeur a changé de telle sorte que la transition est franchie (mot clé « \textit{when} »);
+\item l'événement d’appel (\textit{call event}) : une requête de fonction (operation) du bloc a été effectuée. Un retour est attendu. Des arguments (paramètres) de fonction peuvent être nécessaires.
+\end{itemize}
+\end{minipage} \hfill
+\begin{minipage}[c]{.4 \linewidth}
+\begin{center}
+\includegraphics[width=.95\textwidth]{images/evenements}
+\end{center}
+\end{minipage}
+\end{defi}
+
+
+
+\begin{defi}
+\textbf{Condition de garde}
+
+La condition de garde est une expression booléenne faisant intervenir des entrées et / ou des variables internes. Elle autorise le passage d’un état à un autre. Il est possible d’utiliser les notations non booléennes de front montant ($\uparrow$) et front descendant ($\downarrow$).
+\end{defi}
+
+
+
+\begin{defi}
+\textbf{Effet, action, activité}
+
+L''« effet » associé à une transition peut être une simple action ou une
+séquence d’actions. Une action peut représenter la mise à jour d’une valeur, un appel d’opération,
+ainsi que l’envoi d’un signal à un autre bloc. L’exécution de l’effet est unitaire et ne permet de traiter
+aucun événement supplémentaire pendant son déroulement. Les activités durables (do-activity)
+ont une certaine durée, peuvent être interrompues et sont associées aux états.
+
+\end{defi}
+
+
+\begin{defi}
+\begin{minipage}[c]{.7\linewidth}
+\textbf{État initial, état final}
+
+Le diagramme d’états comprend deux pseudo-états supplémentaires:
+\begin{itemize}
+\item l’état initial du diagramme d’états correspond à la création d’une instance ;
+\item l’état final du diagramme d’états correspond à la destruction de l’instance.
+\end{itemize}
+
+Il est possible d’utiliser plusieurs états finaux pour distinguer par
+exemple la destruction normale de l’élément en fin de vie d’une destruction accidentelle.
+
+\end{minipage} \hfill
+\begin{minipage}[c]{.25 \linewidth}
+\begin{center}
+\includegraphics[width=\textwidth]{images/Etat_ini_fin}
+\end{center}
+\end{minipage}
+\end{defi}
+
+
+\section{Compléments}
+\subsection{Les états composites}
+\begin{defi}
+\textbf{État composite}
+
+Un état composite (aussi appelé super-état) permet d’englober plusieurs sous-états exclusifs. 
+Les états composites permettent d'introduire la notion d'état de niveau hiérarchique inférieur et supérieur. 
+
+Les états composites comportent un état initial qui leur est propre.
+
+\begin{center}
+\includegraphics[width=\textwidth]{images/EtatComposite}
+\end{center}
+\end{defi}
+
+
+\begin{defi}
+\textbf{État composite avec régions orthogonales}
+
+Un état composite est dit orthogonal lorsqu'il permet d'obtenir plusieurs états actifs simultanément. Il permet donc de réaliser des activités en parallèle. 
+\end{defi}
+\subsection{Les pseudos états}
+
+\begin{defi}
+\textbf{Pseudo état}
+
+Un pseudo-état est un élément de commande qui influence le comportement d’une machine d’état. Ils peuvent être utilisés dans un diagramme d’états ou dans un diagramme d’activité.
+
+Le formalisme SysML admet neuf pseudo-états :
+
+\begin{tabular}[c]{c p{15cm}}
+\includegraphics[width=.5cm]{images/sh}
+&
+« \textit{shallow history} » : permet à un état de niveau hiérarchique supérieur (état
+composite) de se souvenir du dernier sous-état, avant qu’il n’évolue vers un autre état. \\
+& \\
+\includegraphics[width=.5cm]{images/dh}
+&
+« \textit{deep history} » : idem que précédemment mais avec la propagation de l’historique à
+tous les sous-états composites de niveaux hiérarchiques inférieurs. \\
+& \\
+\includegraphics[width=.5cm]{images/fork}
+&
+« \textit{fork} » et « \textit{join} » : divergence et convergence de séquences parallèles. \\
+& \\
+\includegraphics[width=.5cm]{images/choice}
+&
+« \textit{choice} » : sélection et convergence de séquences exclusives. Il est nécessaire
+qu’une condition avale soit vraie pour que l’évolution du système se poursuive. Les
+conditions de gardes doivent être exclusives. Le mot clé « \textit{else} » peut-être utilisé pour
+englober tout ce qui n’est pas décrit dans les autres expressions booléennes. Les
+conditions de garde avales sont toutes évaluées une fois le pseudo-état atteint. \\
+& \\
+\includegraphics[width=.5cm]{images/junction}
+&
+« \textit{junction} » : idem au pseudo-état « \textit{choice} », à la différence que pour qu’un chemin soit emprunté, toutes les conditions de garde, avales et amonts, doivent être vraies.
+L’évaluation des conditions avales ne se fait pas une fois le pseudo-état atteint mais
+avant.\\
+\includegraphics[width=.5cm]{images/entry}
+\includegraphics[width=.5cm]{images/exit}
+& 
+« \textit{entry point} » et « \textit{exit point} » : permet de créer un point d’entrée du diagramme et un point de sortie vers un autre diagramme. \\
+& \\
+\includegraphics[width=.5cm]{images/terminate}
+&
+« \textit{terminate} » : permet de terminer une séquence sans destruction de l’instance de bloc.
+\end{tabular}
+\end{defi}
+
+\begin{center}
+\includegraphics[width=.8\textwidth]{images/PseudosEtats}
+\end{center}
+
+
+
+
+\begin{thebibliography}{2}
+\bibitem{1}{Patrick Beynet et Al. , \textit{Sciences Industrielles de l'Ingénieur, PCSI -- MPSI}, Éditions Ellipses.}
+\bibitem{2}{Pascal Roques, \textit{SysML par l'exemple}, Éditions Eyrolles.}
+\bibitem{3}{Pierre Debout, \textit{Automatique -- Systèmes à événements discrets}, Cours de PCSI.}
+\end{thebibliography}
+\end{document}
