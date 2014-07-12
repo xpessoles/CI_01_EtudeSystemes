@@ -1,0 +1,163 @@
+\documentclass[10pt]{article}
+\input{style/coursHeadings}
+\input{style/programHeadings}
+\input{style/macros_SII}
+\input{style/macros_Titres}
+\input{style/macros_Frames}
+
+%Si le boolen xp est vrai : compilation pour xabi
+%Sinon compilation Damien
+\newboolean{xp}
+\setboolean{xp}{true}
+
+\newboolean{prof}
+\setboolean{prof}{true}
+
+\newboolean{td}
+\setboolean{td}{true}
+
+\usepackage[%
+    pdftitle={},
+    pdfauthor={Xavier Pessoles},
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=magenta]{hyperref}
+
+
+\def\discipline{Sciences Industrielles de l'Ingénieur}
+\def\xxtitre{\ifthenelse{\boolean{xp}}{
+CI 1 : Étude des systèmes pluritechniques et multiphysiques -- Initiation à l'Ingéniérie Système}{}}
+
+\def\xxsoustitre{\ifthenelse{\boolean{xp}}{
+Chapitre 1 -- Introduction à l'Ingénérie Systèmes}{
+Partie  -- }}
+
+\def\xxauteur{\ifthenelse{\boolean{xp}}{
+Xavier \textsc{Pessoles}}{}}
+
+\def\xxpied{\ifthenelse{\boolean{xp}}{
+CI 1 : IS \\
+Ch. 1 : Introduction à l'IS -- Cours TD}{
+\xxtitre}}
+
+\def\xxcathegorie{\ifthenelse{\boolean{xp}}{
+2013 -- 2014 \\
+Xavier \textsc{Pessoles}}{
+Informatique - Cours}}
+
+
+
+
+
+%---------------------------------------------------------------------------
+
+
+\begin{document}
+
+\ifthenelse{\boolean{xp}}{\input{style/enteteXP}}{\input{style/enteteDI}}
+
+
+
+ \renewcommand{\baselinestretch}{1.2}
+\setlength{\parskip}{2ex plus 0.5ex minus 0.2ex}
+
+
+\begin{comp}
+A changer !!!
+
+\noindent \textbf{Résoudre :} à partir des modèles retenus :
+\begin{itemize}
+\item choisir une méthode de résolution analytique, graphique, numérique;
+\item mettre en \oe{}uvre une méthode de résolution.
+\end{itemize}
+
+\noindent \textit{Rés -- C1.1 :} Loi entrée sortie géométrique et cinématique -- Fermeture géométrique.
+
+\noindent \textit{Mod2 -- C4.1 :} Représentation par schéma bloc.
+\end{comp}
+
+\section*{Machine de rééducation Sys-Reeduc}
+
+\begin{flushright}
+\textit{D'après concours CCP -- MP -- 2013.}
+\end{flushright}
+
+%\ifprof
+%\else
+
+\begin{minipage}[c]{.7\linewidth}
+Fruit d'un projet régional entre le CReSTIC\footnote{Centre de Recherche en Sciences et Technologies de l'Information et de la Communication.} de Reims et le CRITT-MDTS\footnote{Centre Régional d'Innovation et de Transfert de Technologie.} de Charleville-Mézières, le Sys-Reeduc est un système permettant d'aider à la rééducation des membres inférieurs. 
+\begin{obj} 
+Le but de ce TD est d'analyser et de comprendre le fonctionnement du Sys-Reeduc.
+\end{obj}
+
+\end{minipage} \hfill
+\begin{minipage}[c]{.27\linewidth}
+\begin{center}
+\includegraphics[width=\textwidth]{images/Sys_Reeduc_01}
+\end{center}
+\end{minipage}
+
+\subsection*{Présentation du système -- Analyse externe}
+
+Le Sys-Reeduc est destiné à aider à la rééducation des membres inférieurs chez les patients ayant été victime d'un accident. Ce système permet une rééducation active, ce qui signifie que l'on cherche à renforcer les muscles et la coordination musculaire. Elle est réalisée en boucle fermée : le patient ne se laisse pas conduire par le système mais résiste au mouvement proposé par la machine.
+
+Les exercices en chaîne fermée permettent au patient de récupérer beaucoup plus rapidement. Le système Sys-Reeduc a l'avantage de proposer des exercices combinant la flexion de la jambe à la rotation du pied de manière à solliciter parfaitement les muscles souhaités. 
+
+Dans le cadre du fonctionnement du système, le kinésithérapeute peut aider à la rééducation des membres inférieurs du patient en agissant sur : 
+\begin{itemize}
+\item la flexion – extension du genou ;
+\item la « vrille » de la cheville (rotation interne-externe).
+\end{itemize}
+
+Le système doit aussi permettre la flexion -- extension de la cheville et s’adapter à la morphologie des patients. Enfin, pour des raisons de sécurité, le système ne doit pas blesser le patient. 
+
+Le système doit répondre (entre autres) aux exigences suivantes : 
+\begin{center}
+\begin{tabular}{p{.35\textwidth}p{.27\textwidth}p{.27\textwidth}}
+\hline
+\textbf{Exigences} & \textbf{Critères} & \textbf{Niveaux} \\
+\hline
+\hline
+\multirow{4}{.35\textwidth}{Permettre au kinésithérapeute de rééduquer les membres inférieurs du patient}
+&
+Angle de rotation de la cuisse & De 0\textdegree \; à 150\textdegree \\
+& Effort du patient & Jusqu'à 20 N.\\
+& Écart de position & Nul \\
+& Rapidité & $T_{5\%}<0,2 \; s.$ \\
+\hline
+\multirow{3}{.35\textwidth}{S'adapter à la morphologie des patients} & Longueur de la cuisse et jambe & De 0,6 à 1,2 m. \\
+ & Écartement du bassin & 370 à 600 mm. \\
+ & Distance plat du pied -- cheville & \\
+\hline
+\multirow{2}{.35\textwidth}{Ne pas blesser le patient} & \multirow{2}{.27\textwidth}{Sécurité} & Bloquer le fonctionnement en fonction de la taille du patient \\
+\hline
+\end{tabular}
+\end{center}
+
+
+\subparagraph{}
+\textit{Proposer un diagramme de contexte faisant la liste des entités interagissant avec le système.}
+
+\subparagraph{}
+\textit{Proposer un diagramme de cas d'utilisation. Pour cela, on précisera : 
+\begin{itemize}
+ \item deux acteurs;
+ \item un cas d'utilisation principal;
+ \item un cas d'utilisation de type <<include>> (cas d'utilisation obligatoirement exécuté);
+ \item un cas d'utilisation de type <<extend>> (cas d'utilisation optionnel).
+\end{itemize}}
+
+On donne le diagramme des exigences partiel suivant : 
+
+\begin{center}
+\includegraphics[width=\textwidth]{images/ExigencesVierges}
+\end{center}
+
+
+\subparagraph{}
+\textit{}
+
+\end{document}
+
+
