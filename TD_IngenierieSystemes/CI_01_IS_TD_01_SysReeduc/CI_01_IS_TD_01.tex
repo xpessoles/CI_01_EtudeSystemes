@@ -156,6 +156,55 @@ On donne le diagramme des exigences partiel suivant :
 
 \subsection*{Architecture du système -- Analyse interne}
 
+
+Dans le cadre du système, le haut du corps du patient est supposé immobile. 2 chaînes fonctionnelles sont associées aux 2 mouvements réglables par le kinésithérapeute :
+\begin{itemize}
+\item la première chaîne fonctionnelle permet la flexion du genou, réalisée par la translation du support mobile 1 en utilisant une glissière de type Bosh-Rexroth;
+\item la seconde chaîne fonctionnelle est assurée par le groupe gammatic et permet la rotation interne-externe du pied via le support 3.
+\end{itemize}
+Le support 2 permet la flexion de la cheville mais n’est pas motorisé.
+
+ 
+
+\begin{center}
+\includegraphics[width=.8\textwidth]{images/schema}
+
+\textit{Liaison glissière entre le bâti 0 et le support 1}
+\end{center}
+ 	 
+
+
+\begin{minipage}[c]{.48\linewidth}
+\begin{center}
+\includegraphics[width=.8\textwidth]{images/glissiere}
+
+\textit{Composant Bosh-Rexroth}
+\end{center}
+\end{minipage} \hfill
+\begin{minipage}[c]{.48\linewidth}
+\begin{center}
+\includegraphics[width=.8\textwidth]{images/support}
+
+\textit{Support de pied  - Groupe gammatic}
+\end{center}
+\end{minipage}
+	
+
+La liaison glissière entre le support 1 et le bâti 0 est réalisée par le composant Bosh-Rexroth. Sa course est de 1,3 m. Cette liaison est associée à un moteur et à un réducteur permettant d’assurer une translation à une vitesse maximale de 2 m/s. Ces valeurs permettent de travailler avec un profil de rééducation à faible charge ou avec un profil de rééducation sportif. Un dispositif poulie-courroie permet de transformer la rotation en sortie du réducteur en translation du plateau supérieur. Les deux modules linéaires sont montés sur des rails permettant d’ajuster leur écartement afin d’adapter le système à la morphologie de chaque utilisateur. Sa variation est comprise entre 370 et 600 mm.
+
+La liaison entre les solides 1 et 2 est ajustable en profondeur (par un ensemble de cales) afin de pouvoir aligner positionner la cheville. Elle permet également le réglage de l’inclinaison du pied grâce à une tige de fixation à huit positions comprises entre -20\textdegree et 50\textdegree. Enfin, une fixation, qui n’est pas présentée ici, permet de maintenir le pied en contact avec le support mobile.
+
+La liaison entre 2 et 3 (groupe gammatic) est motorisée pour permettre la rotation interne-externe du pied. Ainsi, le pied repose sur une semelle mise en rotation par un moteur-réducteur. Celui-ci permet d’engendrer un couple maximal de 20 N.m pour une vitesse maximale de 10 tour/s. 
+
+Les fréquences de rotation des deux motoréducteurs (utilisés pour actionner les liaisons 0 – 1 et 2 – 3) sont mesurées à l'aide de codeurs incrémentaux permettant ainsi la mesure du déplacement x(t) et de l’angle de rotation entre les solides 2 et 3. Des capteurs de fin de course situés sur les axes permettent d'arrêter l'exercice en cas de problèmes liés à la commande (la position de ces capteurs est réglable pour s'adapter au patient). Deux capteurs d'efforts tridimensionnels permettent de mesurer les forces et couples appliqués par le patient sur la machine. Ils permettent :
+\begin{itemize}
+\item d'évaluer l'efficacité, la performance et l'amélioration des aptitudes motrices ;
+\item de mesurer l'effort que le patient oppose au mouvement afin d'imposer un couple adapté sur les axes moteur.
+\end{itemize}
+Les moteurs sont alimentés par des variateurs électroniques pilotés par une carte de commande qui génère les lois de commande en fonction du retour des capteurs.
+
+Le kinésithérapeute peut régler le système grâce à une interface homme/machine.
+
 \end{document}
 
 

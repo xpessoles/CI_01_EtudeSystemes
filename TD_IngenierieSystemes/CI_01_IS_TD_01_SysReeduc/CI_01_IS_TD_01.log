@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  14 JUL 2014 11:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  17 JUL 2014 08:32
 entering extended mode
 **CI_01_IS_TD_01.tex
 
@@ -1235,43 +1235,78 @@ File: images/ExigencesVierges.png Graphic file (type png)
 <use images/ExigencesVierges.png>
 Package pdftex.def Info: images/ExigencesVierges.png used on input line 150.
 (pdftex.def)             Requested size: 527.01619pt x 226.38033pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
+
+<images/schema.png, id=26, 1061.9675pt x 633.36626pt>
+File: images/schema.png Graphic file (type png)
+ <use images/schema.png>
+Package pdftex.def Info: images/schema.png used on input line 170.
+(pdftex.def)             Requested size: 421.61455pt x 251.45746pt.
 File: png/logo_ptsi.png Graphic file (type png)
- <use png/logo_ptsi.png>
-Package pdftex.def Info: png/logo_ptsi.png used on input line 157.
+
+<use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 172.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
  [2 <C:/Enseignements/GitHub/CI_01_EtudeSystemes/TD_IngenierieSystemes/CI_01_IS
-_TD_01_SysReeduc/images/ExigencesVierges.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+_TD_01_SysReeduc/images/ExigencesVierges.png (PNG copy)>] <images/glissiere.png
+, id=36, 328.22626pt x 204.765pt>
+File: images/glissiere.png Graphic file (type png)
+
+<use images/glissiere.png>
+Package pdftex.def Info: images/glissiere.png used on input line 179.
+(pdftex.def)             Requested size: 202.37317pt x 126.2531pt.
+
+<images/support.png, id=37, 448.67625pt x 322.20375pt>
+File: images/support.png Graphic file (type png)
+
+<use images/support.png>
+Package pdftex.def Info: images/support.png used on input line 186.
+(pdftex.def)             Requested size: 202.37317pt x 145.32466pt.
+File: png/logo_ptsi.png Graphic file (type png)
+ <use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 202.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [3 <C:/Enseignements/GitHub/CI_01_EtudeSystemes/TD_IngenierieSystemes/CI_01_IS
+_TD_01_SysReeduc/images/schema.png> <C:/Enseignements/GitHub/CI_01_EtudeSysteme
+s/TD_IngenierieSystemes/CI_01_IS_TD_01_SysReeduc/images/glissiere.png (PNG copy
+)> <C:/Enseignements/GitHub/CI_01_EtudeSystemes/TD_IngenierieSystemes/CI_01_IS_
+TD_01_SysReeduc/images/support.png (PNG copy)>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
+File: png/logo_ptsi.png Graphic file (type png)
+ <use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 208.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
 
 (C:\Enseignements\GitHub\CI_01_EtudeSystemes\TD_IngenierieSystemes\CI_01_IS_TD_
 01_SysReeduc\CI_01_IS_TD_01.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
 Package rerunfilecheck Info: File `CI_01_IS_TD_01.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
  ) 
 Here is how much of TeX's memory you used:
- 12430 strings out of 493921
- 176933 string characters out of 3147279
+ 12448 strings out of 493921
+ 177266 string characters out of 3147279
  302496 words of memory out of 3000000
- 15439 multiletter control sequences out of 15000+200000
+ 15451 multiletter control sequences out of 15000+200000
  131077 words of font info for 89 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,17n,72p,464b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,18n,72p,765b,506s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622
 \ecsx1200.pk> <C:\Users\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
 n\ec\dpi622\ecsx1440.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/t
 exnansi.enc} <C:\Users\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
 \ec\dpi622\ecsi1000.pk> <C:\Users\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
 ur\jknappen\ec\dpi622\ecsi0800.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/math
-design/mdput/md-utri7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopi
-a/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on CI_01_IS_TD_01.pdf (2 pages, 361912 bytes).
+design/mdput/md-utr8t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/m
+dput/md-utri7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on CI_01_IS_TD_01.pdf (4 pages, 559388 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
