@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.8)  21 JUL 2014 05:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.8)  21 JUL 2014 14:33
 entering extended mode
 **CI_01_IS_TD_01.tex
 
@@ -1199,47 +1199,56 @@ LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <12> not available
 LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
 (Font)              scaled to size 12.43195pt on input line 98.
 
-<png/logo_ptsi.png, id=6, 384.43625pt x 190.7125pt>
+<images/contexte.png, id=6, 367.8543pt x 187.902pt>
+File: images/contexte.png Graphic file (type png)
+ <use images/contexte.png>
+Package pdftex.def Info: images/contexte.png used on input line 143.
+(pdftex.def)             Requested size: 344.12341pt x 175.78209pt.
+
+<png/logo_ptsi.png, id=7, 384.43625pt x 190.7125pt>
 File: png/logo_ptsi.png Graphic file (type png)
  <use png/logo_ptsi.png>
-Package pdftex.def Info: png/logo_ptsi.png used on input line 167.
+Package pdftex.def Info: png/logo_ptsi.png used on input line 155.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
 LaTeX Font Info:    Font shape `T1/cmss/m/it' will be
-(Font)              scaled to size 8.28796pt on input line 167.
+(Font)              scaled to size 8.28796pt on input line 155.
 LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
-(Font)              scaled to size 7.52002pt on input line 167.
+(Font)              scaled to size 7.52002pt on input line 155.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 7.52002pt on input line 167.
+(Font)              scaled to size 7.52002pt on input line 155.
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
  <D:/GitHub/CI_01_EtudeSystemes/TD_IngenierieSystemes/CI_01_IS_TD_01_SysReeduc/
 png/logo_ptsi.png> <D:/GitHub/CI_01_EtudeSystemes/TD_IngenierieSystemes/CI_01_I
-S_TD_01_SysReeduc/images/Sys_Reeduc_01.png (PNG copy)>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
+S_TD_01_SysReeduc/images/Sys_Reeduc_01.png (PNG copy)> <D:/GitHub/CI_01_EtudeSy
+stemes/TD_IngenierieSystemes/CI_01_IS_TD_01_SysReeduc/images/contexte.png (PNG 
+copy)>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
 File: png/logo_ptsi.png Graphic file (type png)
- <use png/logo_ptsi.png>
-Package pdftex.def Info: png/logo_ptsi.png used on input line 276.
+
+<use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 284.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
 
 (D:\GitHub\CI_01_EtudeSystemes\TD_IngenierieSystemes\CI_01_IS_TD_01_SysReeduc\C
 I_01_IS_TD_01.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
 Package rerunfilecheck Info: File `CI_01_IS_TD_01.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
  ) 
 Here is how much of TeX's memory you used:
- 12401 strings out of 493921
- 177234 string characters out of 3144847
- 299496 words of memory out of 3000000
- 15416 multiletter control sequences out of 15000+200000
+ 12406 strings out of 493921
+ 177341 string characters out of 3144847
+ 298496 words of memory out of 3000000
+ 15420 multiletter control sequences out of 15000+200000
  129479 words of font info for 83 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,17n,72p,748b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,17n,72p,748b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Xavier Pessoles\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
 ec\dpi622\ecsx1200.pk> <C:\Users\Xavier Pessoles\AppData\Local\MiKTeX\2.9\fonts
 \pk\ljfour\jknappen\ec\dpi622\ecsx1440.pk>{C:/Program Files (x86)/MiKTeX 2.9/fo
@@ -1249,9 +1258,9 @@ les\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\ecsi0800.pk><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on CI_01_IS_TD_01.pdf (2 pages, 272106 bytes).
+Output written on CI_01_IS_TD_01.pdf (2 pages, 290435 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
+ 136 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
