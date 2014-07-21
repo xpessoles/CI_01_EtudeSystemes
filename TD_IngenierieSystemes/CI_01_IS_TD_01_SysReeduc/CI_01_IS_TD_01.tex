@@ -81,6 +81,7 @@ Informatique - Cours}}
 %\ifprof
 %\else
 
+
 \begin{minipage}[c]{.7\linewidth}
 Fruit d'un projet régional entre le CReSTIC\footnote{Centre de Recherche en Sciences et Technologies de l'Information et de la Communication.} de Reims et le CRITT-MDTS\footnote{Centre Régional d'Innovation et de Transfert de Technologie.} de Charleville-Mézières, le Sys-Reeduc est un système permettant d'aider à la rééducation des membres inférieurs. 
 \begin{obj} 
@@ -96,6 +97,8 @@ Le but de ce TD est d'analyser et de comprendre le fonctionnement du Sys-Reeduc.
 
 \subsection*{Présentation du système -- Analyse externe}
 
+\ifprof
+\else
 Le Sys-Reeduc est destiné à aider à la rééducation des membres inférieurs chez les patients ayant été victime d'un accident. Ce système permet une rééducation active, ce qui signifie que l'on cherche à renforcer les muscles et la coordination musculaire. Elle est réalisée en boucle fermée : le patient ne se laisse pas conduire par le système mais résiste au mouvement proposé par la machine.
 
 Les exercices en chaîne fermée permettent au patient de récupérer beaucoup plus rapidement. Le système Sys-Reeduc a l'avantage de proposer des exercices combinant la flexion de la jambe à la rotation du pied de manière à solliciter parfaitement les muscles souhaités. 
@@ -130,11 +133,16 @@ Angle de rotation de la cuisse & De 0\textdegree \; à 150\textdegree \\
 \hline
 \end{tabular}
 \end{center}
-
+\fi
 
 \subparagraph{}
 \textit{Proposer un diagramme de contexte faisant la liste des entités interagissant avec le système.}
-
+\ifprof
+\begin{corrige}
+%\includegraphics[width=.9\textwidth]{images/}
+\end{corrige}
+\else
+\fi
 \subparagraph{}
 \textit{Proposer un diagramme de cas d'utilisation. Pour cela, on précisera : 
 \begin{itemize}
@@ -143,20 +151,31 @@ Angle de rotation de la cuisse & De 0\textdegree \; à 150\textdegree \\
  \item un cas d'utilisation de type <<include>> (cas d'utilisation obligatoirement exécuté);
  \item un cas d'utilisation de type <<extend>> (cas d'utilisation optionnel).
 \end{itemize}}
-
-On donne le diagramme des exigences partiel suivant : 
-
-\begin{center}
-\includegraphics[width=\textwidth]{images/ExigencesVierges}
-\end{center}
+\ifprof
+\begin{corrige}
+%\includegraphics[width=.9\textwidth]{images/}
+\end{corrige}
+\else
+\fi
 
 
 \subparagraph{}
-\textit{Compléter les exigences \textit{1.2}, \textit{1.2.1} et \textit{1.4.1} du cahier des charges.}
+\textit{Dans le diagramme des exigences partiel, compléter les exigences \textit{1.2}, \textit{1.2.1} et \textit{1.4.1} du cahier des charges.}
+\ifprof
+\begin{corrige}
+%\includegraphics[width=.9\textwidth]{images/}
+\end{corrige}
+\else
+\begin{center}
+\includegraphics[width=\textwidth]{images/ExigencesVierges}
+\end{center}
+\fi
 
 \subsection*{Architecture du système -- Analyse interne}
 
 
+\ifprof
+\else
 Dans le cadre du système, le haut du corps du patient est supposé immobile. 2 chaînes fonctionnelles sont associées aux 2 mouvements réglables par le kinésithérapeute :
 \begin{itemize}
 \item la première chaîne fonctionnelle permet la flexion du genou, réalisée par la translation du support mobile 1 en utilisant une glissière de type Bosh-Rexroth;
@@ -205,31 +224,53 @@ Les moteurs sont alimentés par des variateurs électroniques pilotés par une c
 
 Le kinésithérapeute peut régler le système grâce à une interface homme/machine.
 
-
+\fi
 
 \subparagraph{}
 \textit{Compléter le diagramme de définition des blocs.}
 
+\ifprof
+\begin{corrige}
+%\includegraphics[width=.9\textwidth]{images/}
+\end{corrige}
+\else
 \begin{center}
 \includegraphics[width=\textwidth]{images/bdd}
 \end{center}
+\fi
+
 
 \subparagraph{}
 \textit{Compléter le diagramme de blocs interne.}
 
+\ifprof
+\begin{corrige}
+%\includegraphics[width=.9\textwidth]{images/}
+\end{corrige}
+\else
 \begin{center}
 \includegraphics[width=\textwidth]{images/ibd}
 \end{center}
+\fi
 
 
 
 \subparagraph{}
 \textit{Compléter la chaîne topo fonctionnelle associée à l’ensemble support 1.}
 
-
+\ifprof
+\begin{corrige}
+%\includegraphics[width=.9\textwidth]{images/}
+\end{corrige}
+\else
 \begin{center}
 \includegraphics[width=\textwidth]{images/cice}
 \end{center}
+\fi
+
+
+
+
 
 
 \end{document}
