@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.8)  22 JUL 2014 18:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.8)  23 JUL 2014 05:30
 entering extended mode
 **CI_01_IS_TD_01.tex
 
@@ -1198,58 +1198,109 @@ LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <12> not available
 (Font)              Font shape `T1/cmss/bx/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
 (Font)              scaled to size 12.43195pt on input line 98.
+LaTeX Font Info:    Try loading font information for TS1+mdput on input line 12
+3.
 
-<images/contexte.png, id=6, 312.2064pt x 137.313pt>
-File: images/contexte.png Graphic file (type png)
- <use images/contexte.png>
-Package pdftex.def Info: images/contexte.png used on input line 143.
-(pdftex.def)             Requested size: 344.12341pt x 151.35904pt.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdput\ts1mdput.fd"
+File: ts1mdput.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdput.
+)
+LaTeX Font Info:    Font shape `TS1/mdput/m/n' will be
+(Font)              scaled to size 9.40002pt on input line 123.
 
-<png/logo_ptsi.png, id=7, 384.43625pt x 190.7125pt>
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+[]\T1/mdput/m/n/10 Bloquer le fonc-tion-ne-ment en
+ []
+
+<png/logo_ptsi.png, id=6, 384.43625pt x 190.7125pt>
 File: png/logo_ptsi.png Graphic file (type png)
  <use png/logo_ptsi.png>
-Package pdftex.def Info: png/logo_ptsi.png used on input line 155.
+Package pdftex.def Info: png/logo_ptsi.png used on input line 135.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
 LaTeX Font Info:    Font shape `T1/cmss/m/it' will be
-(Font)              scaled to size 8.28796pt on input line 155.
+(Font)              scaled to size 8.28796pt on input line 135.
 LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
-(Font)              scaled to size 7.52002pt on input line 155.
+(Font)              scaled to size 7.52002pt on input line 135.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 7.52002pt on input line 155.
+(Font)              scaled to size 7.52002pt on input line 135.
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
  <D:/GitHub/CI_01_EtudeSystemes/TD_IngenierieSystemes/CI_01_IS_TD_01_SysReeduc/
 png/logo_ptsi.png> <D:/GitHub/CI_01_EtudeSystemes/TD_IngenierieSystemes/CI_01_I
-S_TD_01_SysReeduc/images/Sys_Reeduc_01.png (PNG copy)> <D:/GitHub/CI_01_EtudeSy
-stemes/TD_IngenierieSystemes/CI_01_IS_TD_01_SysReeduc/images/contexte.png (PNG 
-copy)>]
-<images/Exigences_Corr.png, id=27, 959.0229pt x 411.939pt>
-File: images/Exigences_Corr.png Graphic file (type png)
+S_TD_01_SysReeduc/images/Sys_Reeduc_01.png (PNG copy)>]
+<images/ExigencesVierges.png, id=25, 1331.97626pt x 572.1375pt>
+File: images/ExigencesVierges.png Graphic file (type png)
 
-<use images/Exigences_Corr.png>
-Package pdftex.def Info: images/Exigences_Corr.png used on input line 171.
-(pdftex.def)             Requested size: 491.60704pt x 211.16724pt.
+<use images/ExigencesVierges.png>
+Package pdftex.def Info: images/ExigencesVierges.png used on input line 176.
+(pdftex.def)             Requested size: 527.01619pt x 226.38033pt.
 
-<images/BDD_Cor.png, id=28, 1023.3432pt x 312.2064pt>
-File: images/BDD_Cor.png Graphic file (type png)
- <use images/BDD_Cor.png>
-Package pdftex.def Info: images/BDD_Cor.png used on input line 241.
-(pdftex.def)             Requested size: 491.60704pt x 149.98123pt.
+<images/schema.png, id=26, 1061.9675pt x 633.36626pt>
+File: images/schema.png Graphic file (type png)
+ <use images/schema.png>
+Package pdftex.def Info: images/schema.png used on input line 195.
+(pdftex.def)             Requested size: 421.61455pt x 251.45746pt.
 File: png/logo_ptsi.png Graphic file (type png)
 
 <use png/logo_ptsi.png>
-Package pdftex.def Info: png/logo_ptsi.png used on input line 243.
+Package pdftex.def Info: png/logo_ptsi.png used on input line 197.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
  [2 <D:/GitHub/CI_01_EtudeSystemes/TD_IngenierieSystemes/CI_01_IS_TD_01_SysReed
-uc/images/Exigences_Corr.png (PNG copy)> <D:/GitHub/CI_01_EtudeSystemes/TD_Inge
-nierieSystemes/CI_01_IS_TD_01_SysReeduc/images/BDD_Cor.png (PNG copy)>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
+uc/images/ExigencesVierges.png (PNG copy)>]
+<images/glissiere.png, id=36, 328.22626pt x 204.765pt>
+File: images/glissiere.png Graphic file (type png)
+
+<use images/glissiere.png>
+Package pdftex.def Info: images/glissiere.png used on input line 204.
+(pdftex.def)             Requested size: 202.37317pt x 126.2531pt.
+
+<images/support.png, id=37, 448.67625pt x 322.20375pt>
+File: images/support.png Graphic file (type png)
+
+<use images/support.png>
+Package pdftex.def Info: images/support.png used on input line 211.
+(pdftex.def)             Requested size: 202.37317pt x 145.32466pt.
 File: png/logo_ptsi.png Graphic file (type png)
  <use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 227.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [3 <D:/GitHub/CI_01_EtudeSystemes/TD_IngenierieSystemes/CI_01_IS_TD_01_SysReed
+uc/images/schema.png> <D:/GitHub/CI_01_EtudeSystemes/TD_IngenierieSystemes/CI_0
+1_IS_TD_01_SysReeduc/images/glissiere.png (PNG copy)> <D:/GitHub/CI_01_EtudeSys
+temes/TD_IngenierieSystemes/CI_01_IS_TD_01_SysReeduc/images/support.png (PNG co
+py)>]
+<images/bdd.png, id=45, 1332.98pt x 679.53876pt>
+File: images/bdd.png Graphic file (type png)
+ <use images/bdd.png>
+Package pdftex.def Info: images/bdd.png used on input line 246.
+(pdftex.def)             Requested size: 527.01619pt x 268.66891pt.
+
+<images/ibd.png, id=46, 947.54pt x 567.11874pt>
+File: images/ibd.png Graphic file (type png)
+ <use images/ibd.png>
+Package pdftex.def Info: images/ibd.png used on input line 262.
+(pdftex.def)             Requested size: 527.01619pt x 315.43825pt.
+File: png/logo_ptsi.png Graphic file (type png)
+
+<use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 263.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [4 <D:/GitHub/CI_01_EtudeSystemes/TD_IngenierieSystemes/CI_01_IS_TD_01_SysReed
+uc/images/bdd.png>]
+<images/cice.png, id=54, 1484.54625pt x 534.99875pt>
+File: images/cice.png Graphic file (type png)
+ <use images/cice.png>
+Package pdftex.def Info: images/cice.png used on input line 279.
+(pdftex.def)             Requested size: 527.01619pt x 189.92996pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
+File: png/logo_ptsi.png Graphic file (type png)
+
+<use png/logo_ptsi.png>
 Package pdftex.def Info: png/logo_ptsi.png used on input line 282.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
- [3]
+ [5 <D:/GitHub/CI_01_EtudeSystemes/TD_IngenierieSystemes/CI_01_IS_TD_01_SysReed
+uc/images/ibd.png> <D:/GitHub/CI_01_EtudeSystemes/TD_IngenierieSystemes/CI_01_I
+S_TD_01_SysReeduc/images/cice.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
 
 (D:\GitHub\CI_01_EtudeSystemes\TD_IngenierieSystemes\CI_01_IS_TD_01_SysReeduc\C
@@ -1261,25 +1312,28 @@ Package rerunfilecheck Info: File `CI_01_IS_TD_01.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
  ) 
 Here is how much of TeX's memory you used:
- 12417 strings out of 493921
- 177586 string characters out of 3144847
- 298496 words of memory out of 3000000
- 15428 multiletter control sequences out of 15000+200000
- 129479 words of font info for 83 fonts, out of 3000000 for 9000
+ 12467 strings out of 493921
+ 178459 string characters out of 3144847
+ 302496 words of memory out of 3000000
+ 15463 multiletter control sequences out of 15000+200000
+ 131077 words of font info for 89 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,17n,72p,748b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,18n,72p,765b,506s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Xavier Pessoles\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
 ec\dpi622\ecsx1200.pk> <C:\Users\Xavier Pessoles\AppData\Local\MiKTeX\2.9\fonts
 \pk\ljfour\jknappen\ec\dpi622\ecsx1440.pk>{C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/enc/dvips/fontname/texnansi.enc} <C:\Users\Xavier Pessoles\AppData\Local\Mi
 KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\ecsi1000.pk> <C:\Users\Xavier Pesso
 les\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\ecsi0800.pk><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on CI_01_IS_TD_01.pdf (3 pages, 439687 bytes).
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utr7t.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utr8t.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utri7m.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on CI_01_IS_TD_01.pdf (5 pages, 946802 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
